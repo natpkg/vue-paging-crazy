@@ -1,7 +1,7 @@
 {
   "name": "@natpkg/vue-paging-crazy",
-  "version": "1.0.0",
-  "description": "vue, quill, s3, Wysiwyg",
+  "version": "1.0.1",
+  "description": "vue, paging, paging-simple, pagination",
   "main": "dist/vue-paging-crazy.ssr.js",
   "browser": "dist/vue-paging-crazy.esm.js",
   "module": "dist/vue-paging-crazy.esm.js",
