@@ -1,7 +1,7 @@
 <template>
   <div :class="classOptions.containerClass">
     <div :class="classOptions.showing">
-      <p>
+      <span>
         {{ labelOptions.showing }}
         {{ ' ' }}
         <span>{{ showFrom }}</span>
@@ -15,7 +15,7 @@
         <span>{{ dataCount }}</span>
         {{ ' ' }}
         {{ labelOptions.entries }}
-      </p>
+      </span>
     </div>
     <ul :class="classOptions.paging">
       <li
@@ -102,7 +102,7 @@ export default {
     clickHandler: {
       type: Function,
       default: () => {},
-    },  
+    },
     labelOptions: {
       type: Object,
       default: () => ({
@@ -237,14 +237,22 @@ export default {
 };
 </script>
 
-<style lang="css">
+<style scoped>
 .showing {
   clear: both;
   float: left;
-  padding: 0.755em;
+  margin: 20px;
 }
-.showing > p {
-  font-size: 13px;
+.showing > span {
+  position: relative;
+  float: left;
+  padding: 5px 8px;
+  line-height: 1.42857143;
+  text-decoration: none;
+  background-color: #ffffff;
+  margin-left: -1px;
+  cursor: pointer;
+  font-size: 12px;
 }
 
 .paging {
