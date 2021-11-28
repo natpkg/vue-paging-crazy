@@ -1,6 +1,6 @@
 {
   "name": "@natpkg/vue-paging-crazy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "vue, paging, paging-simple, pagination",
   "main": "dist/vue-paging-crazy.ssr.js",
   "browser": "dist/vue-paging-crazy.esm.js",
