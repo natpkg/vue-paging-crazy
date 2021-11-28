@@ -444,9 +444,7 @@ var __vue_component__ = /*#__PURE__*/normalizeComponent({
   staticRenderFns: __vue_staticRenderFns__
 }, __vue_inject_styles__, __vue_script__, __vue_scope_id__, __vue_is_functional_template__, __vue_module_identifier__, false, undefined, createInjectorSSR, undefined);
 
-var VuePagingCrazy = __vue_component__;VuePagingCrazy.install = function (Vue) {
-  Vue.component(VuePagingCrazy.name, VuePagingCrazy);
-};var components$1=/*#__PURE__*/Object.freeze({__proto__:null,'default':VuePagingCrazy,VuePagingCrazy:VuePagingCrazy});var install = function installVuePagingSimple(Vue) {
+var __vue_component__$1 = __vue_component__;var components$1=/*#__PURE__*/Object.freeze({__proto__:null,VuePagingCrazy:__vue_component__$1});var install = function installVuePagingSimple(Vue) {
   Object.entries(components$1).forEach(function (_ref) {
     var _ref2 = _slicedToArray(_ref, 2),
         componentName = _ref2[0],
@@ -455,7 +453,7 @@ var VuePagingCrazy = __vue_component__;VuePagingCrazy.install = function (Vue) {
     Vue.component(componentName, component);
   });
 }; // Create module definition for Vue.use()
-var components=/*#__PURE__*/Object.freeze({__proto__:null,'default':install,VuePagingCrazy:VuePagingCrazy});// only expose one global var, with component exports exposed as properties of
+var components=/*#__PURE__*/Object.freeze({__proto__:null,'default':install,VuePagingCrazy:__vue_component__$1});// only expose one global var, with component exports exposed as properties of
 // that global var (eg. plugin.component)
 
 Object.entries(components).forEach(function (_ref) {

@@ -486,16 +486,11 @@ const __vue_component__ = /*#__PURE__*/normalizeComponent({
   staticRenderFns: __vue_staticRenderFns__
 }, __vue_inject_styles__, __vue_script__, __vue_scope_id__, __vue_is_functional_template__, __vue_module_identifier__, false, createInjector, undefined, undefined);
 
-var VuePagingCrazy = __vue_component__;
-
-VuePagingCrazy.install = function (Vue) {
-  Vue.component(VuePagingCrazy.name, VuePagingCrazy);
-};
+var __vue_component__$1 = __vue_component__;
 
 var components = /*#__PURE__*/Object.freeze({
   __proto__: null,
-  'default': VuePagingCrazy,
-  VuePagingCrazy: VuePagingCrazy
+  VuePagingCrazy: __vue_component__$1
 });
 
 // Import vue components
@@ -507,4 +502,4 @@ const install = function installVuePagingSimple(Vue) {
   });
 }; // Create module definition for Vue.use()
 
-export { VuePagingCrazy, install as default };
+export { __vue_component__$1 as VuePagingCrazy, install as default };
